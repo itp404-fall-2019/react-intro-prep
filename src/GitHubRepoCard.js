@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 
-export default function(props) {
+export default function GitHubRepoCard(props) {
   let { name, description, archived, created_at } = props.repo;
   let relativeCreatedAt = moment(created_at).fromNow();
 
